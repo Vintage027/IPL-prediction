@@ -14,18 +14,14 @@ The IPL Match Winner Prediction is a machine learning project that aims to predi
 - [License](#license)
 
 # Dataset
-The dataset used for this project contains historical IPL match data with various features such as team names, venues, toss decisions, player of the match, and more. The dataset is preprocessed to handle missing values and converted into a suitable format for machine learning. You can find the dataset [here](https://www.kaggle.com/datasets/patrickb1912/ipl-complete-dataset-20082020)
+The dataset used for this project contains historical IPL match data with various features such as team names, venues, toss decisions, player of the match, and more. The dataset is preprocessed to handle missing values and converted into a suitable format for machine learning. You can find the dataset [here](https://www.kaggle.com/datasets/patrickb1912/ipl-complete-dataset-20082020).
 
 # Installation
-To use the IPL Match Winner Prediction, follow these steps:
+To use the IPL Match Winner Prediction, follow these steps: 
 
-Clone this repository to your local machine:
-
-git clone https://github.com/sanidhyajadaun/IPL-Match-Winner-Prediction
-cd ipl-match-winner-predictor
-Install the required Python packages:
-
-pip install -r requirements.txt
+1. Clone this repository to your local machine: git clone https://github.com/sanidhyajadaun/IPL-Match-Winner-Prediction <br>
+2. cd ipl-match-winner-prediction
+3. Install the required Python packages: pip install -r requirements.txt
 
 # Interface
 <p align="center">
@@ -34,15 +30,14 @@ pip install -r requirements.txt
 </p>
 
 # Usage
-Start the Flask web application:
 
-python app.py
+1. Start the Flask web application: python app.py
 
-Open your web browser and go to http://localhost:5000 to access the IPL Match Winner Predicton.
+2. Open your web browser and go to http://localhost:5000 to access the IPL Match Winner Predicton.
 
-Fill in the required details for the upcoming match, such as city, venue, teams, toss winner, and toss decision.
+3. Fill in the required details for the upcoming match, such as city, venue, teams, toss winner, and toss decision.
 
-Click on the "Predict" button to get the win probability for each team.
+4. Click on the "Predict" button to get the win probability for each team.
 
 # Features
 The IPL Match Winner Predictoion System offers the following features:
@@ -54,7 +49,6 @@ The IPL Match Winner Predictoion System offers the following features:
 
 # Models
 The project uses multiple machine learning models to predict the match winner. Some of the models include:
-
 - Logistic Regression
 - Random Forest Classifier
 - Support Vector Machine (SVM)
@@ -64,7 +58,7 @@ The project uses multiple machine learning models to predict the match winner. S
 The performance of each model on the test dataset is evaluated using accuracy. The model with the highest accuracy is selected as the final predictor.
 
 # Contributing
-Contributions to the IPL Match Winner Predictor project are welcome. If you find any issues or have suggestions for improvements, please open an issue or submit a pull request.
+Contributions to the IPL Match Winner Prediction project are welcome. If you find any issues or have suggestions for improvements, please open an issue or submit a pull request.
 
 # License
 This project is licensed under the MIT License.
